@@ -20,7 +20,6 @@ const Projects: React.FC<{}> = () => {
             className="z-[1]"
           >
             <div className="flex-wrap justify-center flex mb-5">
-              {/* <div className="justify-center flex"> */}
               <Image
                 className="rounded-lg hover:border-1 border-sky-500 hover:scale-105"
                 src="/OzFish.gif"
@@ -28,15 +27,15 @@ const Projects: React.FC<{}> = () => {
                 width={250}
                 alt="Fish detection gif"
               />
-              {/* </div> */}
-
               <div className="p-3">
-                <p className="text-white text-center font-semibold text-xl">Publication</p>
+                <p className="text-white text-center font-semibold text-xl">
+                  Publication
+                </p>
                 <p className="text-gray-300 text-[12px]">
-                &#34;Evaluating the effectiveness of a pipeline to support
-                  surveillance of unintended passage&#34;. I engineered an object
-                  detection model for the Fish Pass project, exploring models
-                  such as YOLOv3, YOLOv5, YOLOv8, and EfficientDet-Lite.
+                  &#34;Evaluating the effectiveness of a pipeline to support
+                  surveillance of unintended passage&#34;. I engineered an
+                  object detection model for the Fish Pass project, exploring
+                  models such as YOLOv3, YOLOv5, YOLOv8, and EfficientDet-Lite.
                   Utilizing Keras implementation of YOLOv3 with DarkNet-53, I
                   achieved a significant 40% performance enhancement over
                   existing models in the Boardman River environment. For edge
@@ -57,15 +56,13 @@ const Projects: React.FC<{}> = () => {
             className="z-[1]"
           >
             <div className="flex-wrap justify-center flex mb-5">
-              {/* <div className="justify-center flex "> */}
               <Image
                 className="rounded-lg hover:border-1 border-sky-500 hover:scale-105"
-                src="/review.gif"
+                src="/reviewgif.gif"
                 height={220}
                 width={250}
                 alt="Review_Gif"
               />
-              {/* </div> */}
               <div className="p-3">
                 <p className="text-white text-center font-semibold text-xl">
                   Review Analysis
@@ -101,7 +98,9 @@ const Projects: React.FC<{}> = () => {
                 alt="webscrape gif"
               />
               <div className=" p-3 ">
-                <p className="text-white font-semibold text-center text-xl">Web-Scraping</p>
+                <p className="text-white font-semibold text-center text-xl">
+                  Web-Scraping
+                </p>
                 <p className="text-gray-300 text-[12px]">
                   I led the extraction of data from the top 100 apps across all
                   genres from the App Store and Google Play Store, totaling 6000
@@ -109,7 +108,7 @@ const Projects: React.FC<{}> = () => {
                   meticulously cleaned and compared the data to ensure its
                   quality. Through exploratory data analysis (EDA), valuable
                   insights were uncovered, laying a solid foundation for
-                  informed decision-making in app development. 
+                  informed decision-making in app development.
                 </p>
               </div>
             </div>
@@ -125,20 +124,21 @@ const Projects: React.FC<{}> = () => {
             <div className="flex-wrap justify-center  flex mb-5">
               <Image
                 className="rounded-lg hover:border-1 border-sky-500 hover:scale-105 "
-                src="/security.gif"
+                src="/securitygif.gif"
                 height={150}
                 width={250}
                 alt="security gif"
               />
               <div className=" p-3 ">
                 <p className="text-white text-center font-semibold text-xl">
-                  JWT 
+                  JWT
                 </p>
                 <p className="text-gray-300 text-[12px] flex md:inline-flex delay-150 ">
-                I&#39;ve developed a JWT token generator using Spring Security, 
-                enhancing authentication and authorization mechanisms within applications. 
-                This implementation ensures secure data transmission and validates user access,
-                 bolstering overall system security and integrity.
+                  I&#39;ve developed a JWT token generator using Spring
+                  Security, enhancing authentication and authorization
+                  mechanisms within applications. This implementation ensures
+                  secure data transmission and validates user access, bolstering
+                  overall system security and integrity.
                 </p>
               </div>
             </div>
