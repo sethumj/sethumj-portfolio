@@ -58,7 +58,7 @@ const Projects: React.FC<{}> = () => {
             <div className="flex-wrap justify-center flex mb-5">
               <Image
                 className="rounded-lg hover:border-1 border-sky-500 hover:scale-105"
-                src="/reviewgif.gif"
+                src="/review.gif"
                 height={220}
                 width={250}
                 alt="Review_Gif"
