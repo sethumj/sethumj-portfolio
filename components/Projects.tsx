@@ -116,7 +116,7 @@ const Projects: React.FC<{}> = () => {
         </div>
         <div className="flex-col flex md:flex-row ">
           <Link
-            href="https://github.com/sethumj/Spring-Security-Jwt"
+            href="https://github.com/sethumj/Z-Food"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
@@ -134,7 +134,7 @@ const Projects: React.FC<{}> = () => {
                   JWT
                 </p>
                 <p className="text-gray-300 text-[12px] flex md:inline-flex delay-150 ">
-                  I&#39;ve developed a JWT token generator using Spring
+                I&#39;ve developed a JWT token generator using Spring
                   Security, enhancing authentication and authorization
                   mechanisms within applications. This implementation ensures
                   secure data transmission and validates user access, bolstering
