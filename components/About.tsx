@@ -12,7 +12,8 @@ const About: React.FC<{}> = () => {
           EXPLORE NOW
         </p>
         <p className="text-gray-300 text-center ">
-          Hi, I'm Sethu Mettukulam Jagadeesan, a dedicated software engineer specializing in Software Engineering and Machine Learning. Currently pursuing my Master's degree in Computer Science at Central Michigan University.
+          Hi, I&#39;m Sethu Mettukulam Jagadeesan, a dedicated software engineer specializing in Software Engineering and Machine Learning.
+           Currently pursuing my Master&#39;s degree in Computer Science at Central Michigan University.
         <br />
           <br />
           With a strong foundation in computer science and extensive hands-on
@@ -25,7 +26,7 @@ const About: React.FC<{}> = () => {
           <br />
           With a knack for problem-solving and a commitment to excellence, I
           thrive in dynamic environments where creativity meets technical
-          prowess. Whether it's optimizing edge computing models or architecting
+          prowess. Whether it&#39;s optimizing edge computing models or architecting
           e-commerce applications, I continuously push boundaries to deliver
           robust, user-centric solutions that make a difference.
         </p>

@@ -33,8 +33,8 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white text-center font-semibold text-xl">Publication</p>
                 <p className="text-gray-300 text-[12px]">
-                  “Evaluating the effectiveness of a pipeline to support
-                  surveillance of unintended passage". I engineered an object
+                &#34;Evaluating the effectiveness of a pipeline to support
+                  surveillance of unintended passage&#34;. I engineered an object
                   detection model for the Fish Pass project, exploring models
                   such as YOLOv3, YOLOv5, YOLOv8, and EfficientDet-Lite.
                   Utilizing Keras implementation of YOLOv3 with DarkNet-53, I
@@ -135,7 +135,7 @@ const Projects: React.FC<{}> = () => {
                   JWT 
                 </p>
                 <p className="text-gray-300 text-[12px] flex md:inline-flex delay-150 ">
-                I've developed a JWT token generator using Spring Security, 
+                I&#39;ve developed a JWT token generator using Spring Security, 
                 enhancing authentication and authorization mechanisms within applications. 
                 This implementation ensures secure data transmission and validates user access,
                  bolstering overall system security and integrity.
