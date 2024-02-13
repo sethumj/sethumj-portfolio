@@ -1,4 +1,4 @@
-# Personal Developer Portfolio 
+# Personal Portfolio 
 
 [![Site preview](/public/site-preview.jpg)](https://sethumj.netlify.app/)
 
@@ -16,7 +16,7 @@ npm i
 
 npm run dev
 
-# 🏛 Licenses
+# Licenses
 
 © Copyright 2024 Sethu Mettukulam Jagadeesan
 
