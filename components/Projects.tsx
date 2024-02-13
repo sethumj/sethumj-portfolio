@@ -22,10 +22,10 @@ const Projects: React.FC<{}> = () => {
             <div className="flex-wrap justify-center flex mb-5">
               <Image
                 className="rounded-lg hover:border-1 border-sky-500 hover:scale-105"
-                src="/OzFish.gif"
+                src="/fish-annotated.jpg"
                 height={150}
                 width={250}
-                alt="/fish-annotated.jpg"
+                alt="fish image"
               />
               <div className="p-3">
                 <p className="text-white text-center font-semibold text-xl">
@@ -58,10 +58,10 @@ const Projects: React.FC<{}> = () => {
             <div className="flex-wrap justify-center flex mb-5">
               <Image
                 className="rounded-lg hover:border-1 border-sky-500 hover:scale-105"
-                src="/review.gif"
+                src="/reviewimg.jpeg"
                 height={150}
                 width={250}
-                alt="/reviewimg.jpeg"
+                alt="review"
               />
               <div className="p-3">
                 <p className="text-white text-center font-semibold text-xl">
