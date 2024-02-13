@@ -1,7 +1,6 @@
 import React from "react";
 
 const Experience: React.FC<{}> = () => {
-
   return (
     <section id="experience">
       <h1 className="text-white font-semibold text-center text-6xl   pt-[35px]">
@@ -13,20 +12,41 @@ const Experience: React.FC<{}> = () => {
       <div className=" container mx-auto 2xl ">
         <div className="flex  flex-row justify-between pt-5">
           <p className="text-gray-300 ">
-            <span className="font-semibold  text-transparent font-semibold text-xl  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400" >Central Michigan University </span>/ Graduate Research Assistant
+            <span className="font-semibold  text-transparent font-semibold text-xl  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">
+              Central Michigan University{" "}
+            </span>
+            / Graduate Research Assistant
           </p>
           <p className="text-gray-300">JAN 2022 - PRESENT, MICHIGAN</p>
         </div>
         <div>
           <ul className="text-gray-300 pt-5 list-disc">
-            <li>Created a streamlined object detection model using TensorFlow and Keras, optimized for edge computing (TPU).</li>
-            <li>Investigated YOLOv3, YOLOv5, YOLOv8 and EfficientDet-Lite models to determine the best fit for edge device performance.</li>
-            <li>Reduced memory and CPU/GPU usage by 30% through quantization, ensuring models are suitable for edge deployment.</li>
-            <li>Containerized models using Docker for enhanced deployment efficiency and scalability.</li>
-            <li>Assisted CPS580: Supervised Machine Learning to graduate students, facilitating their understanding of ML concepts.</li>
-            <li>Assisting CPS691: Research Design and Professional Practice, aiding students in conducting and writing research papers.</li>
+            <li>
+              Created a streamlined object detection model using TensorFlow and
+              Keras, optimized for edge computing (TPU).
+            </li>
+            <li>
+              Investigated YOLOv3, YOLOv5, YOLOv8 and EfficientDet-Lite models
+              to determine the best fit for edge device performance.
+            </li>
+            <li>
+              Reduced memory and CPU/GPU usage by 30% through quantization,
+              ensuring models are suitable for edge deployment.
+            </li>
+            <li>
+              Containerized models using Docker for enhanced deployment
+              efficiency and scalability.
+            </li>
+            <li>
+              Assisted CPS580: Supervised Machine Learning to graduate students,
+              facilitating their understanding of ML concepts.
+            </li>
+            <li>
+              Assisting CPS691: Research Design and Professional Practice,
+              aiding students in conducting and writing research papers.
+            </li>
           </ul>
-        {/* <p className="text-gray-300 pt-5">
+          {/* <p className="text-gray-300 pt-5">
               As a dedicated research assistant, I've spearheaded the development of cutting-edge
           object detection models optimized for edge computing environments. Leveraging the power of TensorFlow and Keras, 
           I meticulously evaluated a range of models,including YOLOv3, YOLOv5, YOLOv8, and EfficientDet-Lite, to 
@@ -44,36 +64,58 @@ const Experience: React.FC<{}> = () => {
               privilege of guiding graduate students through complex ML concepts and research methodologies, 
               empowering them to excel in both academia and industry.
         </p> */}
-        <div className="flex flex-wrap sm:flex-row ">
-          <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
-            Supervised Machine Learning 
-          </div>
-          <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
-            AI
-          </div>
-          <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
-            Python
-          </div>
-          <div className="bg-transparent  mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
-            Docker
+          <div className="flex flex-wrap sm:flex-row ">
+            <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              Supervised Machine Learning
+            </div>
+            <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              AI
+            </div>
+            <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              Python
+            </div>
+            <div className="bg-transparent  mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              Docker
+            </div>
           </div>
         </div>
       </div>
-      </div> 
       <div className=" container mx-auto 2xl ">
         <div className="flex  flex-row justify-between pt-5">
           <p className="text-gray-300 ">
-            <span className="font-semibold text-transparent font-semibold text-xl  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">Zoho Corporation </span>/ Software Developer 
+            <span className="font-semibold text-transparent font-semibold text-xl  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">
+              Zoho Corporation{" "}
+            </span>
+            / Software Developer
           </p>
           <p className="text-gray-300">JUNE 2021 - DEC 2022, CHENNAI</p>
         </div>
         <ul className="text-gray-300 pt-5 list-disc">
-          <li>Developed RESTful APIs for Zoho CRM using Spring Boot and validated through Junit testing.</li>
-          <li>Utilized Zoho WorkDrive, Docker, Kubernetes, and Jenkins for efficient microservice deployment and management.</li>
-          <li>Implemented JWT token-based authorization scheme using spring security to secure REST APIs.</li>
-          <li>Refactored Java code to Java 11 version and implemented Java 11 latest features like Lambda, filters, and predicates for adding functionality processing capability and Stream API.</li>
-          <li>Acquired expertise in software design principles, enabling the development of real-time applications.</li>
-          <li>Developed business logic for an e-commerce application using Java and Oracle DB. Deployed using Apache Tomcat.</li>
+          <li>
+            Developed RESTful APIs for Zoho CRM using Spring Boot and validated
+            through Junit testing.
+          </li>
+          <li>
+            Utilized Zoho WorkDrive, Docker, Kubernetes, and Jenkins for
+            efficient microservice deployment and management.
+          </li>
+          <li>
+            Implemented JWT token-based authorization scheme using spring
+            security to secure REST APIs.
+          </li>
+          <li>
+            Refactored Java code to Java 11 version and implemented Java 11
+            latest features like Lambda, filters, and predicates for adding
+            functionality processing capability and Stream API.
+          </li>
+          <li>
+            Acquired expertise in software design principles, enabling the
+            development of real-time applications.
+          </li>
+          <li>
+            Developed business logic for an e-commerce application using Java
+            and Oracle DB. Deployed using Apache Tomcat.
+          </li>
         </ul>
         {/* <p className="text-gray-300 pt-5">
         In my role as a software developer within the Zoho CRM team, I've been deeply involved
@@ -116,14 +158,25 @@ const Experience: React.FC<{}> = () => {
       <div className=" container mx-auto 2xl ">
         <div className="flex  flex-row justify-between pt-5">
           <p className="text-gray-300 ">
-            <span className="font-semibold text-transparent font-semibold text-xl  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">Anna University </span>/ Web development Intern
+            <span className="font-semibold text-transparent font-semibold text-xl  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">
+              Anna University{" "}
+            </span>
+            / Web development Intern
           </p>
           <p className="text-gray-300">MAY 2020 - MAR 2021, CHENNAI</p>
         </div>
         <ul className="text-gray-300 pt-5 list-disc">
-          <li>Designed Front-end using HTML5, CSS, JavaScript, and Bootstrapping.</li>
-          <li>Back-end with PHP and MySQL. Experience with Git & Gitlab for Version Control.</li>
-          <li>Modelled User Interface (UI) design for Checkout page and blog posts.</li>
+          <li>
+            Designed Front-end using HTML5, CSS, JavaScript, and Bootstrapping.
+          </li>
+          <li>
+            Back-end with PHP and MySQL. Experience with Git & Gitlab for
+            Version Control.
+          </li>
+          <li>
+            Modelled User Interface (UI) design for Checkout page and blog
+            posts.
+          </li>
         </ul>
         {/* <p className="text-gray-300 pt-5">
           

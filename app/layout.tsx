@@ -7,9 +7,9 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // metadataBase: new URL(
-  //   "https://developer-portfolio-projects.vercel.app"
-  // ),
+  metadataBase: new URL(
+    "https://sethumj.netlify.app/"
+  ),
   title: "Sethu Portfolio",
   description: "Developer Portfolio By Sethu Mettukulam Jagadeesan",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sethu Mettukulam Jagadeesan",
     description: "Software Engineer",
-   // images: "/OpenGraph.jpg",
+    images: "/OpenGraph.jpg",
   },
 };
 

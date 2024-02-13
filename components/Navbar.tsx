@@ -8,35 +8,40 @@ const Navbar: React.FC<{}> = () => {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
-      const yOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
       window.scrollTo({ top: yOffset, behavior: "smooth" });
     }
   };
   const scrollToHome = () => {
     const aboutSection = document.getElementById("banner");
     if (aboutSection) {
-      const yOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
       window.scrollTo({ top: yOffset, behavior: "smooth" });
     }
   };
   const scrollToProject = () => {
     const aboutSection = document.getElementById("projects");
     if (aboutSection) {
-      const yOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
       window.scrollTo({ top: yOffset, behavior: "smooth" });
     }
   };
   const scrollToExperience = () => {
     const aboutSection = document.getElementById("experience");
     if (aboutSection) {
-      const yOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
       window.scrollTo({ top: yOffset, behavior: "smooth" });
     }
   };
   const scrollToSkills = () => {
     const aboutSection = document.getElementById("skills");
     if (aboutSection) {
-      const yOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
       window.scrollTo({ top: yOffset, behavior: "smooth" });
     }
   };
@@ -62,23 +67,23 @@ const Navbar: React.FC<{}> = () => {
           </p>
           <p>
             <Image
-                className="rounded-lg hover:border-1 border-sky-500 hover:scale-105 "
-                src="https://profile-counter.glitch.me/{sethumj}/count.svg"
-                height={100}
-                width={100}
-                alt="WebHR Project"
-              />
+              className="rounded-lg hover:border-1 border-sky-500 hover:scale-105 "
+              src="https://profile-counter.glitch.me/{sethumj}/count.svg"
+              height={100}
+              width={100}
+              alt="WebHR Project"
+            />
           </p>
         </a>
 
         <div className="flex flex-row gap-5">
-        <div
+          <div
             onClick={scrollToHome}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
           >
             Home
           </div>
-        <div 
+          <div
             onClick={scrollToAbout}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
           >
@@ -108,16 +113,16 @@ const Navbar: React.FC<{}> = () => {
           >
             Email Me
           </div>
-          <div  className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  ">
-          <Link
-            href="https://www.linkedin.com/in/sethu-mj/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="z-[1]"
-          >
-            Contact
-            </Link>  </div>
-          
+          <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  ">
+            <Link
+              href="https://www.linkedin.com/in/sethu-mj/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="z-[1]"
+            >
+              Contact
+            </Link>{" "}
+          </div>
         </div>
       </div>
     </div>

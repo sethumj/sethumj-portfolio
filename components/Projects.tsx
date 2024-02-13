@@ -134,7 +134,7 @@ const Projects: React.FC<{}> = () => {
                   JWT
                 </p>
                 <p className="text-gray-300 text-[12px] flex md:inline-flex delay-150 ">
-                I&#39;ve developed a JWT token generator using Spring
+                  I&#39;ve developed a JWT token generator using Spring
                   Security, enhancing authentication and authorization
                   mechanisms within applications. This implementation ensures
                   secure data transmission and validates user access, bolstering
