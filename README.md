@@ -1,12 +1,12 @@
 # Personal Developer Portfolio 🚀
 
-[![Site preview](/public/site-preview.png)](link/)
+[![Site preview](/public/site-preview.png)](https://sethumj.netlify.app/)
 
-Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a developer. Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). it not only provides a visually appealing representation of my work but also ensures optimal performance. View the [live site](link).
+Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a developer. Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). it not only provides a visually appealing representation of my work but also ensures optimal performance. View the [live site](https://sethumj.netlify.app/).
 
 # Features 🎉
 
-The whole [portfolio](link) is a React-based single page app built with Next.js in Typescript, using only statically generated pages.
+The whole [portfolio](https://sethumj.netlify.app/) is a React-based single page app built with Next.js in Typescript, using only statically generated pages.
 
 # Fonts ✍🏻
 
@@ -19,6 +19,7 @@ All project images live under `public/images` and are automatically attached to 
 # To Run
 
 npm i
+
 npm run dev
 
 # 🏛 Licenses
