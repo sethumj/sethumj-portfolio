@@ -25,7 +25,7 @@ const Projects: React.FC<{}> = () => {
                 src="/OzFish.gif"
                 height={150}
                 width={250}
-                alt="Fish detection gif"
+                alt="/fish-annotated.jpg"
               />
               <div className="p-3">
                 <p className="text-white text-center font-semibold text-xl">
@@ -61,7 +61,7 @@ const Projects: React.FC<{}> = () => {
                 src="/review.gif"
                 height={150}
                 width={250}
-                alt="Review_Gif"
+                alt="/reviewimg.jpeg"
               />
               <div className="p-3">
                 <p className="text-white text-center font-semibold text-xl">
