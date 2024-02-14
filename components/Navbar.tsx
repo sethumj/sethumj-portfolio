@@ -1,27 +1,50 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 
 const Navbar: React.FC<{}> = () => {
-const [mobileMenu,setMobileMenu]=useState(false);
-let routes=[{name:"Home",ref:"banner"},{name:"About Me",ref:"about"},{name:"Skills",ref:"skills"},{name:"Experience",ref:"experience"},{name:"Projects",ref:"projects"},{name:"Email Me",ref:"mail"}];
-const menuHandler=()=>{
-  setMobileMenu(pre=>(!pre))
-}
-const scrollHandler = (key:string) => {
-  setMobileMenu(false);
-  if(key!="mail"){
-  const aboutSection = document.getElementById(`${key}`);
-  if (aboutSection) {
-    const yOffset =aboutSection.getBoundingClientRect().top + window.scrollY - 100;
-    window.scrollTo({ top: yOffset, behavior: "smooth" });
-  }
-}else{
-  window.open("mailto:mettu1s@cmich.edu");
-}
-};
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: yOffset, behavior: "smooth" });
+    }
+  };
+  const scrollToHome = () => {
+    const aboutSection = document.getElementById("banner");
+    if (aboutSection) {
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: yOffset, behavior: "smooth" });
+    }
+  };
+  const scrollToProject = () => {
+    const aboutSection = document.getElementById("projects");
+    if (aboutSection) {
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: yOffset, behavior: "smooth" });
+    }
+  };
+  const scrollToExperience = () => {
+    const aboutSection = document.getElementById("experience");
+    if (aboutSection) {
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: yOffset, behavior: "smooth" });
+    }
+  };
+  const scrollToSkills = () => {
+    const aboutSection = document.getElementById("skills");
+    if (aboutSection) {
+      const yOffset =
+        aboutSection.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: yOffset, behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="w-full h-[65px] bg-['#111'] fixed backdrop-blur-sm z-50 px-10">
@@ -53,14 +76,43 @@ const scrollHandler = (key:string) => {
           </p>
         </a>
 
-        <div className="max-[700px]:hidden flex flex-row gap-10">
-          {routes&&routes.length>0&&routes.map((data)=>
+        <div className="flex flex-row gap-5">
           <div
-            onClick={()=>scrollHandler(data.ref)}
+            onClick={scrollToHome}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
           >
-            {data.name}
-          </div>)}
+            Home
+          </div>
+          <div
+            onClick={scrollToAbout}
+            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
+          >
+            About Me
+          </div>
+          <div
+            onClick={scrollToSkills}
+            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
+          >
+            Skills
+          </div>
+          <div
+            onClick={scrollToExperience}
+            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
+          >
+            Experience
+          </div>
+          <div
+            onClick={scrollToProject}
+            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white"
+          >
+            Projects
+          </div>
+          <div
+            onClick={() => window.open("mailto:mettu1s@cmich.edu")}
+            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  "
+          >
+            Email Me
+          </div>
           <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  ">
             <Link
               href="https://www.linkedin.com/in/sethu-mj/"
@@ -72,39 +124,7 @@ const scrollHandler = (key:string) => {
             </Link>{" "}
           </div>
         </div>
-       <div>
-  <div className="min-[700px]:hidden ">
-  <div className="pl-10">
-  <button type="button" className="inline-flex items-center text-white-900 gap-x-1 font-semibold leading-6 " aria-expanded="false" onClick={menuHandler}>
-  <svg className="w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" >
-  <rect x="3" y="3" width="18" height="2"></rect>
-  <rect x="3" y="9" width="18" height="2"></rect>
-  <rect x="3" y="15" width="18" height="2"></rect>
-</svg>
-  </button>
-  </div>
-  <div className={`absolute z-4 mt-2 ${!mobileMenu&&"hidden"}`}>
-  <div className="bg-[aqua] rounded-md">
-  {routes&&routes.length>0&&routes.map((data)=>
-  <div className="md:flex p-3 border-b border-blue-300 focus:bg-red-200" onClick={()=>scrollHandler(data.ref)}>
-    {data.name}
-  </div>)}
-  <div className="md:flex p-3 border-b border-blue-300 focus:bg-red-200" >
-  <Link
-              href="https://www.linkedin.com/in/sethu-mj/"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="z-[1]"
-            >
-              Contact
-            </Link>
-  </div>
-</div>
-  </div>
-</div>
-       </div>
       </div>
-      
     </div>
   );
 };
