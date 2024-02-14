@@ -88,12 +88,16 @@ const Experience: React.FC<{}> = () => {
             </span>
             / Software Developer
           </p>
-          <p className="text-gray-300">JUNE 2022 - DEC 2022, CHENNAI</p>
+          <p className="text-gray-300">JUNE 2021 - DEC 2022, CHENNAI</p>
         </div>
         <ul className="text-gray-300 pt-5 list-disc">
           <li>
             Developed RESTful APIs for Zoho CRM using Spring Boot and validated
             through Junit testing.
+          </li>
+          <li>
+            Utilized Zoho WorkDrive, Docker, Kubernetes, and Jenkins for
+            efficient microservice deployment and management.
           </li>
           <li>
             Implemented JWT token-based authorization scheme using spring

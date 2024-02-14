@@ -12,6 +12,9 @@ const Skills: React.FC<{}> = () => {
         EXPLORE NOW
       </p>
       <div className="flex justify-center flex-wrap  max-w-[1100px]">
+        {/* <div className="bg-white  mt-5 mr-2 cursor-pointer rounded-3xl  font-semibold text-black py-2 px-5  border border-white w-max">
+            PROGRAMMING LANGUAGES
+          </div> */}
         <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           JAVA
         </div>
@@ -27,6 +30,9 @@ const Skills: React.FC<{}> = () => {
         <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           BASH
         </div>
+        {/* <div className="bg-white  mt-5 mr-2 cursor-pointer rounded-3xl  font-semibold text-black py-2 px-5  border border-white w-max">
+            WEB TECHONOLOGIES
+          </div> */}
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           HTML
         </div>
@@ -43,6 +49,9 @@ const Skills: React.FC<{}> = () => {
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           REST API
         </div>
+        {/* <div className="bg-white  mt-5 mr-2 cursor-pointer rounded-3xl  font-semibold text-black py-2 px-5  border border-white w-max">
+            FRAMEWORKS & LIBRARIES
+          </div> */}
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           SPRING
         </div>
@@ -67,12 +76,20 @@ const Skills: React.FC<{}> = () => {
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           KERAS
         </div>
+
+        {/* <div className="bg-white  mt-5 mr-2 cursor-pointer rounded-3xl  font-semibold text-black py-2 px-5  border border-white w-max">
+            CLOUD TECHNOLOGIES
+          </div> */}
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           AWS
         </div>
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           GCP
         </div>
+        {/* <div className="flex-col flex sm:flex-row ">
+          <div className="bg-white  mt-5 mr-2 cursor-pointer rounded-3xl  font-semibold text-black py-2 px-5  border border-white w-max">
+            DATABASE TECHNOLOGIES
+          </div> */}
         <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           ORACLE DB
         </div>
@@ -82,6 +99,9 @@ const Skills: React.FC<{}> = () => {
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           MONGO DB
         </div>
+        {/* <div className="bg-white  mt-5 mr-2 cursor-pointer rounded-3xl  font-semibold text-black py-2 px-5  border border-white w-max">
+            TOOLS AND PLATFORMS
+          </div> */}
         <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           GIT
         </div>
@@ -90,6 +110,12 @@ const Skills: React.FC<{}> = () => {
         </div>
         <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           DOCKER
+        </div>
+        <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+          JENKINS
+        </div>
+        <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+          JFROG
         </div>
         <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
           APACHE TOMCAT
